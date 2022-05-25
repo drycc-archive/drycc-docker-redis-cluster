@@ -11,10 +11,7 @@ set -o pipefail
 . /opt/drycc/scripts/redis-cluster-env.sh
 
 # Load libraries
-. /opt/drycc/scripts/libbitnami.sh
 . /opt/drycc/scripts/librediscluster.sh
-
-# print_welcome_page
 
 if [[ "$*" = *"/run.sh"* ]]; then
     info "** Starting Redis setup **"

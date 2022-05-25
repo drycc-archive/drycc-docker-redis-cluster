@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Library for managing Bitnami components
+# Library for managing Drycc components
 
 # Constants
 CACHE_ROOT="/tmp/drycc/pkg/cache"

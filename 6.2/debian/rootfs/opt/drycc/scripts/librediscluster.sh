@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Bitnami Redis Cluster library
+# Drycc Redis Cluster library
 
 # shellcheck disable=SC1090,SC1091
 

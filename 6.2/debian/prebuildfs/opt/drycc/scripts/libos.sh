@@ -327,14 +327,14 @@ convert_to_mb() {
 #########################
 # Redirects output to /dev/null if debug mode is disabled
 # Globals:
-#   BITNAMI_DEBUG
+#   DRYCC_DEBUG
 # Arguments:
 #   $@ - Command to execute
 # Returns:
 #   None
 #########################
 debug_execute() {
-    if is_boolean_yes "${BITNAMI_DEBUG:-false}"; then
+    if is_boolean_yes "${DRYCC_DEBUG:-false}"; then
         "$@"
     else
         "$@" >/dev/null 2>&1
